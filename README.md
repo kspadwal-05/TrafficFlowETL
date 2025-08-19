@@ -4,7 +4,6 @@
 
 This project takes traffic device data from **Microsoft Access**, cleans it with **Pandas**, saves it into a **SQL database**, and sends the results as JSON to a **REST API**.  
 If you already export JSON from Access using the provided **VBA script**, the pipeline will use that as the main source.
----
 
 ## How it works
 
