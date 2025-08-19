@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    environment:
+      ACCESS_DB_PATH: ${ACCESS_DB_PATH:-/app/data/input/traffic_database.accdb}
+      API_BASE_URL: ${API_BASE_URL:-https://httpbin.org/post}
+      API_TOKEN: ${API_TOKEN:-dev-token}
+      ACCURACY_THRESHOLD: ${ACCURACY_THRESHOLD:-0.7}
+      PREFER_VBA_EXPORT: ${PREFER_VBA_EXPORT:-1}
+    volumes:
+      - ./data:/app/data
+    tty: true
