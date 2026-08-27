@@ -4,7 +4,7 @@
 
 An advanced **AI-powered traffic analytics platform** that processes real-time traffic data using machine learning, provides intelligent insights, and delivers interactive dashboards for traffic management and urban planning.
 
-## 🚀 Key Features
+## 🚀 Key Project Features
 
 ### 🤖 **Machine Learning & AI**
 - **Predictive Analytics**: XGBoost and LightGBM models for traffic volume prediction
